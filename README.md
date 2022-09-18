@@ -1,93 +1,127 @@
-# 自用，出事概不负责
+
+## 库里的脚本也来源别的库收集的，我拉代码的时候也尽量检查了一遍，有些代码加密了，但没法保证代码安全，还望大家自己注意点，脚本本意是为了给大家节省时间，希望卡商们别搞的太大给东哥留点家底
 
 
+### 获取 ck工具 【JDWXX】
 
-
-拉库
-```
-ql repo https://github.com/Akali5/jd-depot.git "jd_|jx_|jddj_|gua_|getJDCookie|wskey" "activity|backUp" "^jd[^_]|USER|utils|ZooFaker_Necklace|JDJRValidator_|sign_graphics_validate|jddj_cookie|function|ql|magic|JDJR|sendNotify|depend|h5"
-```
-
-国内🐓
-```
-ql repo https://hub.xn--gzu630h.xn--kpry57d/Akali5/jd-depot.git "jd_|jx_|jddj_|gua_|getJDCookie|wskey" "activity|backUp" "^jd[^_]|USER|utils|ZooFaker_Necklace|JDJRValidator_|sign_graphics_validate|jddj_cookie|function|ql|magic|JDJR|sendNotify|depend|h5"
+##### 下载地址
 
 ```
+https://vkceyugu.cdn.bspapp.com/VKCEYUGU-4a406456-63ac-413b-b1f6-27a6eed5945e/a0966c97-528b-4acb-9a32-106eb0e45653.apk
+```
+
+### ----------------------------------------------------------------------------
+
+#### 【JDWXX-京东任务】
+
+##### 命令
+```
+ql repo https://github.com/JDWXX/jd_job.git "jd_|jx_|gua_|jddj_|getJDCookie" "activity|backUp" "^jd[^_]|USER|function|utils|ZooFaker_Necklace.js|JDJRValidator|sign_graphics_validate|ql|send"
+```
+
+##### 定时规则
+
+```
+0 0 1,10,15 * * *
+```
+
+### ----------------------------------------------------------------------------
+
+##### 【JDWXX-非京东任务汇总】
+
+##### 命令
+
+```
+ql repo https://github.com/JDWXX/ql_all.git "" "Backup|index|HT.*|sendNotify|ql" "HT.*|sendNotify|ql"
+```
+##### 备用命令
+```
+ql repo https://hub.fastgit.org/JDWXX/ql_all.git "" "Backup|index|HT.*|sendNotify|ql" "HT.*|sendNotify|ql"
+```
+##### 定时规则
+
+```
+0 0 1,10,15 * * *
+```
+
+## 特别声明:
+
+* 本仓库发布的Script项目中涉及的任何解锁和解密分析脚本，仅用于测试和学习研究，禁止用于商业用途，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断.
+
+* 本项目内所有资源文件，禁止任何公众号、自媒体进行任何形式的转载、发布。
+
+* jd_job 对任何脚本问题概不负责，包括但不限于由任何脚本错误导致的任何损失或损害.
+
+* 间接使用脚本的任何用户，包括但不限于建立VPS或在某些行为违反国家/地区法律或相关法规的情况下进行传播, jd_job 对于由此引起的任何隐私泄漏或其他后果概不负责.
+
+* 请勿将Script项目的任何内容用于商业或非法目的，否则后果自负.
+
+* 如果任何单位或个人认为该项目的脚本可能涉嫌侵犯其权利，则应及时通知并提供身份证明，所有权证明，我们将在收到认证文件后删除相关脚本.
+
+* 任何以任何方式查看此项目的人或直接或间接使用该Script项目的任何脚本的使用者都应仔细阅读此声明。jd_job 保留随时更改或补充此免责声明的权利。一旦使用并复制了任何相关脚本或Script项目的规则，则视为您已接受此免责声明.
+
+**您必须在下载后的24小时内从计算机或手机中完全删除以上内容.**  </br>
+> ***您使用或者复制了本仓库且本人制作的任何脚本，则视为`已接受`此声明，请仔细阅读***
 
 
-青龙命令2.10.13版本
+### 为防止账号再次遭到封禁失联,可以加入QQ交流群
+### 1群 681030097
+![image](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-4a406456-63ac-413b-b1f6-27a6eed5945e/baf96b0a-3764-4d81-b47f-bdcc3c553c96.png)
+### 2群 681030097
+![image](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-4a406456-63ac-413b-b1f6-27a6eed5945e/98838c66-1a67-4c86-b52b-702742d7412a.png)
+
+## 腾讯云服务器 45元/1年
+#### [【腾讯云】618采购季来袭！爆款云服务器18元起，参与活动享多重好礼](https://cloud.tencent.com/act/cps/redirect?redirect=2260&cps_key=13c854d3ec192824956cc079f600753f&from=console)
+
+# 拉取仓库
+##### 名称
+
 ```
-docker run -dit \
-  -v /home/ql/config:/ql/config \
-  -v /home/ql/db:/ql/db \
-  -v /home/ql/scripts:/ql/scripts \
-  -v /home/ql/repo:/ql/repo \
-  -v /home/ql/backup:/ql/backup \
-  -v /home/ql/log:/ql/log \
-  -p 5701:5700 \
-  --name qinglong \
-  --hostname qinglong \
-  --restart unless-stopped \
-  whyour/qinglong:2.10.13
+【JDWXX】
 ```
-2.12版本以后
+##### 命令
 ```
-docker run -dit \
-  -v /home/ql/data:/ql/data \
-  -p 5701:5700 \
-  --name qinglong \
-  --hostname qinglong \
-  --restart unless-stopped \
-  whyour/qinglong:latest
+ql repo https://ghproxy.com/https://github.com/JDWXX/jd_job.git "jd_|jx_|gua_|jddj_|getJDCookie" "activity|backUp" "^jd[^_]|USER|function|utils|ZooFaker_Necklace.js|JDJRValidator_Pure|sign_graphics_validate|ql"
+
+```
+##### 备用命令
+```
+ql repo https://hub.fastgit.org/JDWXX/jd_job.git "jd_|jx_|gua_|jddj_|getJDCookie" "activity|backUp" "^jd[^_]|USER|function|utils|ZooFaker_Necklace.js|JDJRValidator_Pure|sign_graphics_validate|ql"
+
+```
+##### 定时规则
+
+```
+0 10 0 * * *
+```
+
+# 使用文档
+
+[教程](http://cxgc.top/)
+
+## 助力教程
+
+## 抓取 wskey
+### 所需软件 抓包工具 （Fiddler） 模拟器 （MM模拟器） （京东无线宝） 
+### 软件都在 wskey目录下（main.exe 为 wskey转换ck工具）
+
+### 视频教程： 利用Fiddler抓取京东云app的wskey
+#### [https://www.bilibili.com/video/av841105364/](https://www.bilibili.com/video/av841105364/)
+
+#### Fiddler配置
+![img_2.png](docs/assets/img/img_2.png)
+![img_3.png](docs/assets/img/img_3.png)
+![img_4.png](docs/assets/img/img_4.png)
+![img_5.png](docs/assets/img/img_5.png)
+
+
+#### 关于脚本推送通知频率
+
+> 如果你填写了推送通知方式中的某一种通知所需环境变量，那么脚本通知情况如下：
+
+> 目前默认只有jd_fruit.js,jd_pet.js,jd_bean_sign.js,jd_bean_change.js,jd_jxnc.js这些脚本(默认)每次运行后都通知
+
   ```
-  
-其他脚本
-```
-58.js(58同城)
-jd_txstockex.js(腾讯自选股-全加密)
-telecom.py(电信脚本)
-```
-  
-  
-  
-  ## 加密脚本清单
-
-<details>
-<summary>加密脚本清单，已审查， 不放心可禁用</summary>
-<pre><code>
-jd_fans.js (粉丝互动，全加密)
-jd_jxmc.js (京喜牧场，算法加密)
-jd_cfd.js (京喜财富岛，算法加密)
-jd_cfd_loop.js (京喜财富岛捡贝壳，算法加密)
-jd_speed_sign.js (极速版签到，算法加密)
-jd_speed_signred.js  (极速版红包，算法加密)
-jd_19E_help.js (热爱奇旅互助版-部分加密)
-jd_game.js (LZ店铺通用游戏任务-加密)
-jd_speed_redpocke.js (京东极速版领红包-加密)
-jd_wxSignRed.js(微信签到红包-加密)
-jd_cjzdgf.js(CJ组队瓜分京豆-加密)
-jd_zdjr.js(LZ组队瓜分京豆-加密)
-jd_js_sign.js(极速版签到提现-加密)
-jd_drawCenter.js(LZ刮刮乐抽奖通用活动-加密)
-jd_jrsign.js(金融签到-加密)
-jd_dailysign.js(京东日常签到-加密)
-jd_jx_sign.js(京喜双签-加密)
-jd_fcwb_help.js(发财挖宝助力-加密)
-jd_wxFansInterActionActivity.js(粉丝互动通用活动-加密)
-jd_wxUnPackingActivity.js(LZ让福袋飞通用活动)
-jd_wxCartKoi.js (购物车锦鲤通用活动)
-jd_wxCollectCard.js(集卡抽奖通用活动)
-jd_wxCollectionActivity.js(取关商品)
-jd_wxSecond.js (读秒拼手速)
-jx_one2shopping.js(京喜一元兑好礼)
-jx_sign_xd.js(京喜签到-喜豆)
-jd_card.js (店铺开卡)
-jd_carplay.js(头文字j)
-jd_mf_new.js(京东魔方-全加密)
-jd_txstockex.js(腾讯自选股-全加密)
-jd_washbeans.js(临时京豆续命-加密)
-
-开卡系列全部部分或全部加密 
-</code></pre>
-</details>
+其余的脚本平常运行都是不通知，只有在京东cookie失效以及达到部分条件后，才会推送通知    
+  ```
 

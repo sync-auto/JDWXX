@@ -1,0 +1,1 @@
+{'shopid': '1000073561', 'venderId': '1000073561', 'activityId': '10586986', 'signbody': 'sign=d351cd240eb4f21961710a0c0750d5ec&st=1636157270059&sv=112'}
